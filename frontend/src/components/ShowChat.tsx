@@ -65,18 +65,19 @@ export const ShowChat = ({
                     </button>
                   </>
                 ) : (
-                  <p className="message-p">
-                    {m.text}{" "}
+                  <>
+                    <p className="message-p">{m.text} </p>
                     <button
+                      className="edit_btn"
                       onClick={() => {
                         {
                           setEditing(m);
                         }
                       }}
                     >
-                      Ändra
+                      Change
                     </button>
-                  </p>
+                  </>
                 )}
               </div>
             </div>

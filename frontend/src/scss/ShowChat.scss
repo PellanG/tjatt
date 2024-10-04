@@ -101,6 +101,10 @@
     font-size: small;
   }
 }
+.message-p {
+  display: flex;
+  justify-content: space-between;
+}
 
 .chat__main-name {
   text-align: right;
